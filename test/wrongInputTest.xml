@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  Input XML document. This XML is valid against input.xsd XML schema-->
+
+<st3:Planes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xmlns:st3="http://nure.ua/kramarenko/SummaryTask3/entity"
+		xsi:schemaLocation="http://nure.ua/kramarenko/SummaryTask3/entity input.xsd">
+
+	<Plane>
+		<model>QWERTY-123</model>
+		<origin>UA</origin>
+		<chars>
+			<type>Fighter</type>
+			<places>2</places>
+			<ammo>false</ammo>
+			<radar>true</radar>
+		</chars>
+		<parameters unit="metres"> 
+			<length>400 </length>
+			<width>500</width>
+			<height>50</height>
+		</parameters>
+		<price unit="rub">100000</price>
+	</Plane>
+	
+	<Plane>
+	<model>B-52</model>
+	<origin>USA</origin>
+	<chars>
+		<type>Fighter</type>
+		<places>1</places>
+		<ammo rocket="10">true</ammo>
+		<radar>true</radar>
+	</chars>
+	<parameters unit="metres"> 
+		<length>400 </length>
+		<width>500</width>
+		<height>50</height>
+	</parameters>
+	<price unit="$">100000</price>
+	</Plane>
+	
+</st3:Planes>

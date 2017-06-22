@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  Input XML document. This XML is valid against input.xsd XML schema-->
+
+<st3:Planes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xmlns:st3="http://nure.ua/kramarenko/SummaryTask3/entity"
+		xsi:schemaLocation="http://nure.ua/kramarenko/SummaryTask3/entity input.xsd">
+
+	<Plane>
+		<model>MIG-29</model>
+		<origin>USSR</origin>
+		<chars>
+			<type>Fighter</type>
+			<places>2</places>
+			<ammo rocket="7">true</ammo>
+			<radar>true</radar>
+		</chars>
+		<parameters unit="metres"> 
+			<length>17.32</length>
+			<width>11.36</width>
+			<height>4.73</height>
+		</parameters>
+		<price unit="taller">100000</price>
+	</Plane>
+	
+	<Plane>
+	<model>AN-30</model>
+	<origin>USSR</origin>
+	<chars>
+		<type>Support</type>
+		<places>2</places>
+		<ammo>false</ammo>
+		<radar>true</radar>
+	</chars>
+	<parameters unit="metres"> 
+		<length>24.26</length>
+		<width>29.2</width>
+		<height>8.32</height>
+	</parameters>
+	<price unit="taller">900000</price>
+	</Plane>
+		<Plane>
+	<model>F-4</model>
+	<origin>USA</origin>
+	<chars>
+		<type>Fighter</type>
+		<places>1</places>
+		<ammo rocket="10">true</ammo>
+		<radar>true</radar>
+	</chars>
+	<parameters unit="metres"> 
+		<length>400 </length>
+		<width>500</width>
+		<height>50</height>
+	</parameters>
+	<price unit="taller">500000</price>
+	</Plane>
+	
+	<Plane>
+	<model>CU-27</model>
+	<origin>USSR</origin>
+	<chars>
+		<type>Fighter</type>
+		<places>1</places>
+		<ammo rocket="5">true</ammo>
+		<radar>true</radar>
+	</chars>
+	<parameters unit="metres"> 
+		<length>21.935</length>
+		<width>14.698</width>
+		<height>5.9</height>
+	</parameters>
+	<price unit="taller">300000</price>
+	</Plane>
+	
+	<Plane>
+	<model>F-22</model>
+	<origin>USA</origin>
+	<chars>
+		<type>Fighter</type>
+		<places>1</places>
+		<ammo rocket="10">true</ammo>
+		<radar>true</radar>
+	</chars>
+	<parameters unit="metres"> 
+		<length>18.9</length>
+		<width>13.56</width>
+		<height>5.09</height>
+	</parameters>
+	<price unit="taller">100000000</price>
+	</Plane>
+	
+</st3:Planes>
